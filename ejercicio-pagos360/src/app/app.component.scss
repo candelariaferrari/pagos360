@@ -1,0 +1,13 @@
+@import "../themes/colors.scss";
+
+html{
+  font-family: 'Open Sans', sans-serif !important;
+}
+h1{
+  color: $negro;
+  text-align: center;
+  margin: 2em auto;
+  font-family: $font;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

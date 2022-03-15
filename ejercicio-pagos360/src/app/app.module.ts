@@ -7,13 +7,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SearchComponent } from './components/search/search.component';
 import { TableComponent } from './components/table/table.component';
+/* import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { SearchComponent } from './components/search/search.component';
+import { TableComponent } from './components/table/table.component'; */
+
+import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     SearchComponent,
-    TableComponent
+    TableComponent,
+    MatTableModule,
+    HttpClientModule
   ],
   imports: [
     BrowserModule,
